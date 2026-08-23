@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install Python requirements",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/python -m pip install -r ${workspaceFolder}/requirements.txt",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run app",
+      "type": "shell",
+      "command": "python ${workspaceFolder}/src/main.py --simulate-transcript \"draw a star\"",
+      "problemMatcher": []
+    }
+  ]
+}
