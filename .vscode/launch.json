@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Jetson App",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "args": ["--simulate-transcript", "draw a star"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
